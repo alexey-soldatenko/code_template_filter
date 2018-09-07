@@ -1,0 +1,23 @@
+.code_owner{
+    border: 1px solid black;
+    width: 400px;
+    max-height: 400px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.code_num{
+    float: left;
+    width: auto;
+    text-align: right;
+    border-right: 1px solid black;
+    padding-left: 3px;
+    padding-right: 2px;
+    color: white;
+    background: gray; 
+}
+.code_text{
+    padding-left: 10px;
+    float: left;
+    width: 80%;
+    white-space: pre;
+}

@@ -3,9 +3,7 @@ from django import template
 register = template.Library()
 
 def code_block(code):
-    lines = code.split('\n')
-    numbers = len(lines)
-    text_block = ""
+    numbers = len(code.split('\n'))
     text_block = '<div class="code_text">'+code+"</div>"
     num_block = ""
     for num in range(numbers):
